@@ -1,0 +1,381 @@
+@font-face {
+   font-family: 'Recoleta';
+   src: url(fonts/Recoleta-Bold.ttf);
+}
+@font-face {
+   font-family: 'Recoleta Normal';
+   src: url(fonts/RozanovaGEO-Demo-Thin.otf);
+}
+*{
+   margin: 0px; 
+   padding: 0px;
+
+}
+
+
+ /* icon on the left */
+ .iconleft{
+    position: absolute;
+    top: 29px;
+    left: 313px;
+ }
+ .iconleft img{
+    width: 193px;
+    
+ }
+ /* Navbar */
+ .nav{
+
+    position: absolute;
+    left:18.5cm;
+    top:43px;
+    font-family: 'Outfit', sans-serif;
+    font-size: large;
+    
+ }
+ ul {
+    display:inline;
+ }
+ ul li{
+    display: inline;
+    margin: 15px;
+    
+ }
+ ul li a{
+    display:inline;
+    text-decoration: none;
+ }
+ li a{
+    color: black;
+    transition: 0.25s;
+ }
+ li a:hover{
+    opacity: 0.6;  
+ }
+ /* Login button */
+ .login{
+    position: absolute;
+    display: inline;
+    top: 43px;
+    right: 12.4cm;
+ }
+.login a{
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    color: black;
+    transition: 0.25s;
+}
+.login a:hover{
+    opacity: 0.6;
+}
+/* try it button */
+.tryit{
+    display: inline;
+position: absolute;
+top: 24px;
+right:8.7cm;
+font-family: 'Outfit', sans-serif;
+font-size: 14px;
+color:rgb(0, 0, 0);
+padding:15px;
+padding-left: 30px;  
+padding-top: 20px;
+border-style: solid ;
+   border-width: 2px;
+   border-radius: 13px;
+   background-color: black;
+   width:80px;
+   height:20px ;
+   
+   transition: 0.25s;
+   text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.tryit:hover{
+    background-color: #FFCE49;
+    color: black;
+}
+/* Middle text */
+.headermiddiv{
+   position: absolute;
+   top: 7.5cm;
+   left: 13.7cm;
+   height: 300px;
+}
+.headermid{
+   font-family: 'Recoleta';
+  text-align-last: center;
+  line-height: 1.05;
+  font-size: 60px;
+  
+}
+.underheader{
+   font-family: 'Recoleta Normal';
+   font-weight: 100;
+   text-align-last: center;
+   position: relative;
+   top: 20px;
+   font-size: 22.4px;
+   line-height: 1.3;
+   
+}
+/* Middle buttons */
+/* try it middle button */
+.tryit2{
+   display: inline;
+position: absolute;
+top: 13.5cm;
+left: 21.3cm;
+font-family: 'Outfit', sans-serif;
+font-size: 14px;
+color:rgb(0, 0, 0);
+padding:15px;
+padding-left: 30px;  
+padding-top: 18px;
+border-style: solid ;
+   border-width: 2px;
+   border-radius: 13px;
+   background-color: rgb(255, 255, 255);
+   width:75px;
+   height:20px ;
+   transition: 0.25s;
+   text-decoration: none;
+}
+
+.tryit2:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+/* Talk to Sales */
+.Talktosales{
+   display: inline;
+position: absolute;
+top: 13.52cm;
+left: 25cm;
+font-family: 'Outfit', sans-serif;
+font-size: 14px;
+color:rgb(0, 0, 0);
+padding:15px;
+padding-left: 25px;  
+padding-right: 20px;
+padding-top: 15px;
+   border-width: 2px;
+   border-radius: 13px;
+   background-color: #FECE48;
+   width:80px;
+   height:23px ;
+   transition: 0.25s;
+   text-decoration: none;
+   border-style: solid;
+   border-color: #FECE48;
+   
+   
+}
+
+.Talktosales:hover{
+border-style: solid;
+transition: 0.25s;
+border-color: #000000;
+}
+/* Img middle */
+.imgpos{
+   position: relative;
+   width: 68%;
+   height: 68%;
+top: 833px;
+}
+
+.textunderimg{
+   position: relative;
+   top: 1100px;
+   font-family: 'Recoleta';
+   font-size: 32px;
+}
+/* company logos */
+.complogo{
+   width: 1000px;
+   height:200px
+}
+.imges{
+   width: 150px;
+   margin:10px;
+}
+/* features */
+.featuresP{
+font-family: 'Recoleta Normal';
+font-size: 17px;
+}
+.featuresH{
+font-size: 43px;
+line-height: 1;
+}
+.gradback{
+   position: relative;
+   width: 100%;
+   height: 1000px;
+   display: block;
+   z-index: -1;
+   top: 900px;
+   background: rgb(255,248,228);
+background: linear-gradient(0deg, rgba(255,248,228,1) 0%, rgba(255,255,255,1) 100%);
+}
+.textundgrad{
+   position: relative;
+   top: 1025px;
+   font-family: 'Recoleta';
+   font-size: 21px;
+   line-height: 1;
+}
+.pundergrad{
+   font-family: 'Recoleta Normal';
+   font-size: 15px;
+   opacity: 0.8;
+   line-height: 1.5;
+}
+.divdad{
+   position: relative;
+   top: 1100px;
+   text-align: center;
+   display: flex;
+   font-family: 'Recoleta';
+   font-size: 30px;
+   justify-content:center;
+}
+.firsth1{
+display: inline-block;
+margin: 0px;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+border-right: 1px solid rgba(0, 0, 0, 0.1);
+padding:60px;
+width: 325px;
+height:50px;
+
+}
+.secondh1{
+   display: inline-block;
+   margin: 0px;
+   padding:60px;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+border-right: 1px solid rgba(0, 0, 0, 0.1);
+width: 325px;
+height:50px;
+}
+.thirdh1{
+   display: inline-block;
+   margin: 0px;
+   padding:60px;
+   padding-left: 0px;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+   width: 400px;
+   height:50px;
+}
+.firsth1 p{
+   font-family: 'Recoleta Normal';
+   font-size: 13px;
+}
+.secondh1 p{
+   font-family: 'Recoleta Normal';
+   font-size: 13px;
+}
+.thirdh1 p{
+   font-family: 'Recoleta Normal';
+   font-size: 13px;
+}
+.yellowbox{
+   background-color: #FECB3F;
+   position: relative;
+   width: 67%;
+   height: 350px;
+   display: block;
+   border-style: solid #FECB3F;
+   border-radius: 15px ;
+   top: 1500px;
+}
+.yellowbox h1{
+   font-family: 'Recoleta';
+   font-size: 42px;
+   position: relative;
+   top:95px;
+
+}
+.yellowbox p{
+   font-family: 'Recoleta Normal';
+   position: relative;
+   top: 110px;
+   font-size: 17px;
+}
+.buttonyellow{
+  position: relative;
+  top:125px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  padding:20px;
+  padding-left: 20px;  
+  padding-top: 20px;
+  border-style: solid black;
+     border-width: 1px;
+     border-radius: 13px;
+     background-color: black;
+   display: inline-block;
+     width: 75px;
+     height: 20px;
+     transition: 0.25s;
+     text-decoration:none;
+     color: white;
+   
+}
+  
+  .buttonyellow:hover{
+      background-color: #FFCE49;
+      color: black;
+    border-style: solid;
+      transition: 0.25s;
+
+}
+.dadfooter{
+   font-family: sans-serif;
+   font-size: 7px;
+   position: absolute;
+   top: 122cm;
+   display: block;
+   width: 100%;
+}
+.footer1{
+   display: inline-block;
+   position: relative;
+   left: 700px;
+   line-height: 2.5;
+}
+.footer1 p{
+   font-family: 'Recoleta Normal';
+   font-size: 15px;
+}
+.footer2 {
+   display: inline-block;
+   position: relative;
+   left: 725px;
+   line-height: 2.5;
+   bottom: 510px;
+}
+.footer2 p{
+   font-family: 'Recoleta Normal';
+   font-size: 15px;
+}
+.footer3{
+   display: inline-block;
+   position: relative;
+   left: 800px;
+   line-height: 2.5;
+   bottom: 550px;
+}
+.footer3 p{
+   font-family: 'Recoleta Normal';
+   font-size: 15px;
+}
+.imgfooter {
+   display: inline-block;
+   position: relative;
+   bottom: 785px;
+   left: 325px;
+}
